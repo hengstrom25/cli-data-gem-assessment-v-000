@@ -1,4 +1,4 @@
-class Scraper
+class SimpleCollection::Scraper
   
   def scrape_page
     doc = Nokogiri::HTML(open("http://tincanknits.com/thesimplecollection.html"))
