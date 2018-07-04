@@ -1,4 +1,4 @@
-class SimpleCollection::Pattern
+class Pattern
 
   attr_accessor :name, :url, :size, :materials, :gauge, :suggested_needles, :notes, :description
 
