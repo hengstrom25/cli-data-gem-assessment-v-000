@@ -1,5 +1,5 @@
 #CLI Controller
-class SimpleCollection::CLI
+class CLI
 
   def call
     puts "Welcome to The Simple Collection by Tin Can Knits!"
