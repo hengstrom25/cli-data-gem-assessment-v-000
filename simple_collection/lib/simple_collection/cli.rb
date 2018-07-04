@@ -18,7 +18,7 @@ class SimpleCollection::CLI
       input = gets.strip
     end
 
-    list = Scraper.new.scrape_page
+    list = SimpleCollection::Scraper.new.scrape_page
     print_patterns(list)
 
     puts "To see more information about a pattern, please enter its number."
